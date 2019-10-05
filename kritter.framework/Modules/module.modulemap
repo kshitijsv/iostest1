@@ -1,0 +1,11 @@
+framework module kritter {
+  umbrella header "kritter.h"
+
+  export *
+  module * { export * }
+}
+
+module kritter.Swift {
+    header "kritter-Swift.h"
+    requires objc
+}
